@@ -1,0 +1,78 @@
+/* Design tokens sampled from the Hello DMP v1.0.5 screenshots:
+   welcome card teal #03a79e, title yellow #fac900, list cards mint #e8fefb with a mint border,
+   map pins DMP green #056750, phone numbers red, pastel module tiles. */
+:root {
+  --brand: #03a79e;
+  --brand-600: #028f87;
+  --brand-700: #027068;
+  --brand-50: #e8fefb;
+  --brand-100: #d2f7f1;
+  --brand-border: #8fe3d5;
+  --dmp-green: #056750;
+  --gold: #fac900;
+  --bubble: #b2e7f5;
+
+  --danger: #c62828;
+  --danger-50: #fdecec;
+  --sos: #d0102b;
+  --warning: #b45309;
+  --warning-50: #fff7e6;
+  --success: #15803d;
+  --success-50: #e8f7ee;
+  --info: #1d4ed8;
+  --info-50: #eaf1ff;
+  --link: #046b5a;
+
+  --tile-cream: #fef7e5;
+  --tile-aqua: #e9fffd;
+  --tile-ice: #ebf7f7;
+  --tile-lime: #f8faed;
+  --tile-rose: #feeeee;
+  --tile-pink: #ffeaf6;
+  --tile-sky: #eef6ff;
+
+  --text: #121417;
+  --text-2: #3d4650;
+  --muted: #5d6873;
+  --line: #e3e8ec;
+  --surface: #ffffff;
+  --surface-2: #f6f8f9;
+  --page: #ffffff;
+  --overlay: rgba(10, 20, 25, 0.45);
+
+  --radius-sm: 10px;
+  --radius: 16px;
+  --radius-lg: 24px;
+  --shadow-sm: 0 1px 2px rgba(16, 24, 32, 0.06);
+  --shadow: 0 4px 14px rgba(16, 24, 32, 0.08);
+  --focus: 0 0 0 3px rgba(3, 167, 158, 0.45);
+
+  --font: 'Noto Sans Bengali', 'Noto Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --nav-h: 64px;
+  --header-h: 60px;
+  --side-w: 248px;
+}
+
+/* High contrast mode (SG-033): stronger text, borders and focus. */
+:root[data-contrast='high'] {
+  --brand: #00665f;
+  --brand-600: #00524c;
+  --brand-700: #003f3a;
+  --brand-50: #ffffff;
+  --brand-border: #00524c;
+  --text: #000000;
+  --text-2: #000000;
+  --muted: #1f2933;
+  --line: #4b5563;
+  --surface-2: #ffffff;
+  --tile-cream: #ffffff;
+  --tile-aqua: #ffffff;
+  --tile-ice: #ffffff;
+  --tile-lime: #ffffff;
+  --tile-rose: #ffffff;
+  --tile-pink: #ffffff;
+  --tile-sky: #ffffff;
+  --danger: #a10000;
+  --link: #00403a;
+  --focus: 0 0 0 3px #000;
+}
